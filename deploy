@@ -1,0 +1,7 @@
+#!/bin/bash
+
+helm install --wait postgresql bitnami/postgresql
+
+./enable_extension
+
+./create_table
