@@ -1,6 +1,7 @@
 #!/bin/bash
 
-helm install --wait postgresql bitnami/postgresql
+#helm install --wait postgresql bitnami/postgresql
+helm install postgresql oci://registry-1.docker.io/bitnamicharts/postgresql-ha
 
 ./enable_extension
 
