@@ -5,4 +5,6 @@ helm install postgresql oci://registry-1.docker.io/bitnamicharts/postgresql-ha
 
 ./enable_extension
 
-./create_table
+#./create_table
+
+./create_project vedur
